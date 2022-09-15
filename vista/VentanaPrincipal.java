@@ -33,7 +33,7 @@ public class VentanaPrincipal extends JFrame
 
         //Creación y adición de un panel tipo PanelResultado
         miPanelResultado = new PanelResultado();
-        miPanelResultado.setBounds(10,330,465,120);
+        miPanelResultado.setBounds(10,275,465,180);
         this.add(miPanelResultado);
 
         // Caracteristicas de la ventana
