@@ -28,7 +28,7 @@ public class VentanaPrincipal extends JFrame
 
         //Creación y adición de un panel tipo PanelOperación
         miPanelOperacion = new PanelOperacion();
-        miPanelOperacion.setBounds(10,210,465,120);
+        miPanelOperacion.setBounds(10,210,465,60);
         this.add(miPanelOperacion);
 
         //Creación y adición de un panel tipo PanelResultado
