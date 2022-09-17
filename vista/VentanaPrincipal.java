@@ -7,9 +7,9 @@ public class VentanaPrincipal extends JFrame
     //---------------------------
     // Atributos 
     //---------------------------
-    private PanelEntradaDatos miPanelEntradaDatos;
-    private PanelOperacion miPanelOperacion;
-    private PanelResultado miPanelResultado;
+    public PanelEntradaDatos miPanelEntradaDatos;
+    public PanelOperacion miPanelOperacion;
+    public PanelResultado miPanelResultado;
 
     //---------------------------
     // Metodos

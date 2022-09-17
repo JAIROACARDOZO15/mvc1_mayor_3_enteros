@@ -41,8 +41,8 @@ public class PanelResultado extends JPanel
     //Metodos de acceso a la informacion
     public void mostrarResultados(int mayor)
     {
-        taResultado.setText("El numero mayor es: " + mayor);
-        //taResultado.append("/nEl numero mayor es: "+ mayor);
+        //taResultado.setText("El numero mayor es: " + mayor);
+        taResultado.append("\nEl numero mayor es: "+ mayor);
     }
 
     //Borrar

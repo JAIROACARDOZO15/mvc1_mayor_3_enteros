@@ -12,9 +12,9 @@ public class PanelOperacion extends JPanel
     //---------------------------
     // Atributos 
     //---------------------------
-    private JButton bthallarMayor;
-    private JButton btBorrar;
-    private JButton btSalir;
+    public JButton btHallarMayor;
+    public JButton btBorrar;
+    public JButton btSalir;
     
     //---------------------------
     // Metodos
@@ -28,10 +28,10 @@ public class PanelOperacion extends JPanel
          this.setBackground(Color.WHITE);
 
          //Crear y agregar boton HallarMayor
-         bthallarMayor = new JButton("Hallar Mayor");
-         bthallarMayor.setBounds(30,20,110,20);
-         bthallarMayor.setActionCommand("hallarMayor");
-         this.add(bthallarMayor);
+         btHallarMayor = new JButton("Hallar Mayor");
+         btHallarMayor.setBounds(30,20,110,20);
+         btHallarMayor.setActionCommand("hallarMayor");
+         this.add(btHallarMayor);
 
          //Crear y agregar boton Borrar
          btBorrar = new JButton("Borrar");
